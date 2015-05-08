@@ -1,1 +1,6 @@
+
+
+Options +Indexes
+IndexOptions FancyIndexing
+
 AddType application/x-httpd-php .html
