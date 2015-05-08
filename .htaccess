@@ -3,4 +3,7 @@
 Options +Indexes
 IndexOptions FancyIndexing
 
-AddType application/x-httpd-php .html
+<files index.php>
+	Order Allow,Deny
+	Allow from all
+</files>
