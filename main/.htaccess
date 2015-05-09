@@ -1,0 +1,9 @@
+
+
+Options +Indexes
+IndexOptions FancyIndexing
+
+<files index.php>
+	Order Allow,Deny
+	Allow from all
+</files>
