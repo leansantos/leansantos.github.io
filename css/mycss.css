@@ -1,5 +1,5 @@
 body{
-	background-color: #DDDDDD !important;
+	background-color: #ffffff !important;
 }
 .header-title{
 	color: #ffffff !important;
@@ -360,4 +360,13 @@ footer{
 	height: 50px;
 	padding-top: 5px;
 	margin-top: 50px;
+}
+
+
+
+
+
+.header .img-circle{
+	box-shadow: 3px 5px 1px #888888;
+	margin:199px;
 }
