@@ -14,7 +14,19 @@
 	<p>Wewewi</p>
 	<h2><a href="main">go to PHP!</a></h2>
 	
+	<video controls autoplay width="500px" heigth="540px">
+	<source src="video/Arrow.S01E01.720p.mkv">
+	<source src="video/Arrow.S01E01.720p.mp4" type="video/mp4" />
+	<source src="video/Arrow.S01E01.720p.webm" type="video/webm" />
+	<source src="video/Arrow.S01E01.720p.ogg" type='video/ogg codecs="theora, vorba"' />
+	</video>
 	
+	
+	<?php
+	$x = simplexml_load_file('agreen/aGreen-Flat-AIR-Skin-for-JW6.xml');
+	
+	echo  $x->component[0]->element[1];
+	?>
 	
 	</body>
 </html>
