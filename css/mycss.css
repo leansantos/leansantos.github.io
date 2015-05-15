@@ -27,7 +27,7 @@ nav a{
 }
 .ha-header{
 	
-	z-index: 5 !important;
+	z-index: 0 !important;
 }
 
 /* Header triggers animation*/
@@ -366,7 +366,7 @@ footer{
 
 
 
-.header .img-circle{
+.me:hover{
 	box-shadow: 3px 5px 1px #888888;
 	margin:199px;
 }
