@@ -367,5 +367,10 @@ footer{
 
 
 .img-me{
-	
+	 margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all 1s ease-in-out;
 }
