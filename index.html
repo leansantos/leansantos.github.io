@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My Web</title>
+    <meta name="description" content="Inspiration for on scroll header animations with various effects" />
+    <meta name="keywords" content="on scroll, animate, header, transition, css3, 3d, effect, inspiration" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../fdavicon.ico">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet">
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+  </head>
+
+  <body id="top-page">
+
+    <!-- TRIGGERS HEADER ANIMATION -->
+    <section class="ha-waypoint triggers-section" data-animate-down="ha-header-small" data-animate-up="ha-header-large">
+    <!-- HEADER ANIMATION-->
+    <!-- hide,show,subshow,shrink,rotateBack,rotate,color,small,box,fullscreen,subfullscreen -->
+    </section>
+    <!-- the header that will be animated by adding the respective state class to it -->
+
+    <header id="ha-header" class="ha-header ha-header-large page-scroll" >
+      <div class="ha-header-perspective" >
+        <div class="ha-header-front">
+          <h1 class="header-title"><span><a href="#top-page" style="color:#101010;font-weight:400;">WELCOME!</a></span></h1>
+          
+          <nav  class="page-scroll nav-two">  
+            <a href="#top-page">Me</a>
+            <a href="#skill-section">Skill</a>
+            <a href="#project-section">Project</a>
+            <a href="#contact-section">Contact</a>
+          </nav>
+        </div>
+        <nav class="page-scroll nav-one" >
+              <button style="z-index: 5 !important;" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <span class="glyphicon glyphicon-chevron-down"></span>  
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#top-page">Me</a></li>
+                <li><a href="#skill-section">Skill</a></li>
+                <li><a href="#project-section">Project</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+      
+    </header>  <!-- END HEAGER -->
+    
+  
+    <!-- CONTENT -->
+    <!-- Me Section -->
+    <div id="me-section">      
+      <div class="me-top">
+        <a><img class="img-responsive img-circle" src="images/ako.png" alt=""  style="margin:0 auto;"></a>
+      </div>
+      <div class="me-bottom">
+        <h3>HELLO</h3>
+        <h3> I'm <b>Lester Anthony Santos!</b></h3>
+        <img class="img-responsive img-line" src="images/divider-white.png" alt="">
+        <h3>I'm a <b>Web Developer</b></h3>
+      </div>                
+    </div><!-- End me-section -->
+
+    <!-- Skills Section -->
+    <div id="skill-section">
+      <div class="skill-top">
+        <h1>My Skills</h1>
+        <img class="img-responsive img-line" src="images/divider-black.png" alt="">
+      </div>
+      <div class="skill-bottom">
+        <div class="container">
+          <div class="skill-images">
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/HTML5.png" alt="" style="width:230px;"></a>
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/CSS3.png" alt="" ></a>
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/PHP.png" alt="" style="width:350px;" ></a>
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/JAVAscript.png" alt="" style="width:240px;" ></a>
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/MYSQL.png" alt="" style="width:318px;"></a>
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/JQUERY.png" alt="" ></a>
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/LARAVEL.png" alt="" style="width:521px;"></a>
+          <a class='col-sm-6 col-md-4'><img class="img-responsive" src="images/skills/ANGULARJS.png" alt="" style="width:300px;height:280px;"></a>
+          <a class='col-sm-12 col-md-4'><img class="img-responsive" src="images/skills/BOOTSTRAP.jpeg" alt="" style="width:500px;"></a>
+          </div>
+        </div>
+      </div>
+    </div><!-- End skill section -->
+     
+
+    <!-- Project Section -->
+    <div id="project-section">
+      <div class="project-top">
+        <h1>My Project</h1>
+        <img class="img-responsive img-line" src="images/divider-white.png" alt="">
+      </div>  
+      <div class="project-bottom">
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="project col-lg-4">
+            <div class="top">
+              <a class="btn btn-default btn-lg" data-toggle="modal" data-target="#project1-modal">
+              <img class="img-responsive=" src="images/project1/scheduling.jpg" alt="Scheduling system">
+              </a>
+            </div>
+            <div class="bottom">
+              <b>Description</b>
+            </div>                  
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+      </div><!-- End Project-bottom -->
+    </div><!-- End Project Section -->
+  
+
+    
+    <!-- Contact Section -->
+    <div id="contact-section">
+      <div class="contact-top">
+        <h1>My Contact</h1>
+        <img class="img-responsive img-line" src="images/divider-black.png" alt="">
+      </div>
+      <div class="contact-bottom">
+        <div class="container">
+          <p>lesteranthony_s@yahoo.com.ph</p>
+        </div>
+
+      </div> <!-- End Contact-bottom -->
+
+
+
+    </div> <!-- End Contact Section -->
+
+
+    <!-- End CONTENT -->
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="top-footer page-scroll">
+        <a href="#top-page"  style="color:#ffffff" >
+          <span class="glyphicon glyphicon-chevron-up"></span>   
+        </a>
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.facebook.com/lean.santos" target="_blank" class="btn-social btn-outline" title="facebook"><i class="fa fa-fw fa-facebook"></i></a>
+          </li>
+          <li>
+              <a href="#" class="btn-social btn-outline" title="twitter"><i class="fa fa-fw fa-twitter"></i></a>
+          </li>
+          <li>
+              <a href="#" class="btn-social btn-outline" title="instagram"><i class="fa fa-fw fa-instagram"></i></a>
+          </li>
+          <li>
+              <a href="#" class="btn-social btn-outline" title="google plus"><i class="fa fa-fw fa-google-plus"></i></a>
+          </li>
+        </ul>            
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright 2015 © Lester Anthony Santos </p>
+      </div>
+    </footer> <!-- END FOOTER -->
+    
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="project1-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content"> 
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">Scheduling System</h4>
+      </div> <!-- End Modal-header -->
+      <div class="modal-body">
+      <!-- Carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/project1/scheduling.jpg" alt="Home page">
+              <div class="carousel-caption">
+                <p style="color:green;">Home page</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/project1/scheduling-admin.jpg" alt="Admin panel">
+              <div class="carousel-caption">
+                <p style="color:green;">Admin panel</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/project1/scheduling-registrar.jpg" alt="Registrar panel">
+              <div class="carousel-caption">
+                <p style="color:green;">Registrar panel</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/project1/scheduling-department.jpg" alt="Department panel">
+              <div class="carousel-caption">
+                <p style="color:green;">Department panel</p>
+              </div>
+            </div>
+  
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><!-- End Carousel -->
+        
+        <div class="modal-bottom">
+          <a  href="https://github.com/leansantos/scheduling-system.git" target="_blank">source code---</a>
+          <a  href="http://leansantos.co.nf/" target="_blank">---view online</a>
+        </div>
+        
+      </div><!-- End Modal-Body -->
+    </div><!-- End Modal-content -->
+  </div><!-- End Modal-dialog -->
+</div>
+<!-- End MODAL -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JAVA SCRIPT!!!! -->
+    <!-- HEADER JS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+
+   
+    
+    <script src="js/jqBootstrapValidation.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+    <script src="js/myjs.js"></script> 
+    <!-- MODAL JS -->
+      <script src="js/classie.js"></script>
+      <script src="js/modalEffects.js"></script>
+      <script>
+        // this is important for IEs
+        var polyfilter_scriptpath = '/js/';
+      </script>
+      <script>
+        $('#dropdown-nav').show();
+      </script>
+
+
+  </body>
+</html>
