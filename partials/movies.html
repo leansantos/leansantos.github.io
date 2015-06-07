@@ -1,0 +1,30 @@
+<div class="content movies-page">
+
+	<h1>Movies</h1>
+	<div class="col-sm-9">
+		<div class="right-side">
+		<h4>Navigation-------------</h4>
+		</div>
+		<div  class="list-video">
+			<div ng-repeat="movie in movies" class="video-item">
+				<a href="" style="float:left;overflow:hidden;">
+					<img class="img-responsive" ng-src="{{ movie.image }}" alt="">
+				</a>
+				<a href="">
+					<p class="title"> {{ movie.title }} - ({{ movie.year }}) </p>
+				</a>
+				<p class="genre"> {{ movie.genre }} </p>
+				<div class="scroll">
+					<p class="description">
+					{{ movie.description }}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-3">
+		<h1>Side Navigation</h1>
+	</div>
+	
+
+</div>
