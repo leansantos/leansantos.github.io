@@ -1,0 +1,28 @@
+<div class="content anime-page">
+
+	<h1>Anime</h1>
+	<div class="col-sm-9">
+		<div class="right-side">
+		<h4>Navigation-------------</h4>
+		</div>
+		<div  class="list-video">
+			<div ng-repeat="movie in movies | filter:'tv series' | filter:search | limitTo:10 | orderBy:'-id' " class="video-item">
+				<a href="" style="float:left;overflow:hidden;">
+					<img class="img-responsive" ng-src="{{ movie.image }}" title="{{ movie.title }}">
+				</a>
+				<a href="" style="color:red;">
+					<p class="title"><b> {{ movie.title }}  ({{ movie.year }}) </b></p>
+				</a>
+				<p class="genre"> {{ movie.genre }} </p>
+				<div class="scroll">
+					<p class="description">
+					{{ movie.description }}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-3">
+		<h1>Side Navigation</h1>
+	</div>
+</div>
