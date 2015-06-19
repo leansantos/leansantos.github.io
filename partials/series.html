@@ -1,0 +1,53 @@
+<div class="series-page">
+	<h2>Tv Series List</h2>
+
+<div class="col-md-9">
+
+	<div class="series-list">
+		<div>
+			<ul style="overflow:hidden;">
+				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">1</li></a>
+				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">2</li></a>
+				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">3</li></a>
+				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">4</li></a>
+				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">5</li></a>
+			</ul>
+		</div>
+
+
+
+		<div ng-repeat="series in tvseries | filter:search | orderBy:'-id' | limitTo:10 " class="series-item">
+			<div class="poster">
+				<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}"><img ng-src="{{ series.poster }}" alt=""></a>		
+			</div>
+			<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}">
+				<div class="title">
+					<b>{{ series.title }}</b>  <i>(S{{ series.season }} - E{{ series.episode }})</i>
+				</div>
+				<div class="episode-title">
+					<i><b>{{ series.episodeTitle }}</b></i>
+				</div>
+			</a>	
+			<div class="summary">
+				<p>{{ series.summary }}</p>
+			</div>
+		</div><!-- end div series-item class -->
+		
+		
+	</div><!-- end div series-list class -->
+	
+	
+
+
+
+
+</div><!-- end div col-md-9 class -->
+
+
+
+<div class="col-md-3">
+	<h1>Side Navigation</h1>
+</div>
+
+</div>
+
