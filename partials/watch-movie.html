@@ -1,0 +1,30 @@
+<div class="movies-page">
+	
+
+<div class="col-md-9">
+<h3>{{movies[getparamId].title}}</h3>
+<br>
+
+<!-- 16:9 aspect ratio -->
+<div>
+	<div class="embed-responsive embed-responsive-16by9" style="background-color:black;">
+  		<video src="{{movieLink(getparamId)}}" controls autoplay preload poster="{{movies[getparamId].poster}}"></video>
+	</div>
+</div>
+
+
+	
+</div>
+
+
+<div class="col-md-3" ng-controller="NavigationController">
+	<h1>Side Navigation</h1>
+	<ul style="padding-left:0;">
+		<li ng-repeat="nav in navigation.sideNav">
+			<a href="{{nav.link}}" style="color:{{nav.color}};">{{nav.nav}}</a>
+		</li>
+	</ul>
+</div>
+
+</div>
+
