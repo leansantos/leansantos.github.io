@@ -1,0 +1,108 @@
+{
+
+"movies": [
+	{
+		"id": 0, "title": "Jupiter Ascending", "category": "Movie", "genres": "Action | Adventure | Sci-Fi",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A young woman discovers her destiny as an heiress of intergalactic nobility and must fight to protect the inhabitants of Earth from an ancient and destructive industry.",
+		"poster": "https://lh3.googleusercontent.com/5tqozLj5gFuXMOUbv1Wl33AvzThnHRyncywybT2csA=w120-h160-no",
+		"image": "",
+		"link": "https://r3---sn-jvhja5g3-hoae.googlevideo.com/videoplayback?requiressl=yes&id=029b8e44266f1e39&itag=18&source=webdrive&ip=120.29.65.236&ipbits=0&expire=1437018248&sparams=expire,id,ip,ipbits,itag,mm,mn,ms,mv,pl,requiressl,source&signature=53603F345BE28181B3EC4C2F80CD3D24F16AAFCD.82080B30EA8EC4FB7809A461C52E9037AE6C3AEF&key=cms1&cms_redirect=yes&mm=31&mn=sn-jvhja5g3-hoae&ms=au&mt=1434828538&mv=m&pl=22",
+		"source": "https://r3---sn-jvhja5g3-hoae.googlevideo.com/videoplayback?requiressl=yes&id=029b8e44266f1e39&itag=18&source=webdrive&ip=120.29.65.236&ipbits=0&expire=1437018248&sparams=expire,id,ip,ipbits,itag,mm,mn,ms,mv,pl,requiressl,source&signature=53603F345BE28181B3EC4C2F80CD3D24F16AAFCD.82080B30EA8EC4FB7809A461C52E9037AE6C3AEF&key=cms1&cms_redirect=yes&mm=31&mn=sn-jvhja5g3-hoae&ms=au&mt=1434828538&mv=m&pl=22"
+	},
+	{
+		"id": 1, "title": "Focus", "category": "Movie", "genres": "Comedy | Crime | Drama",
+		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Nicky Spurgeon is an extremely accomplished con man who takes an amateur con artist, Jess, under his wing. Nicky and Jess become romantically involved, and with Nicky’s profession of being a liar and a cheater for a living, he realizes that deception and love are things that don’t go together. They split, only to see each other three years later… And things get messy.",
+		"poster": "https://lh3.googleusercontent.com/BfTzG5WeMS56bi7yqsPfmNen7NDuxNha3iGFuX1e7w=w120-h160-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/M2MLjAUVYnNhJ_lUO0rV7_WyOANc9c8X9CoPJlUuRh8=m18"
+	},
+	{
+		"id": 2, "title": "Night at the Museum: Secret of the Tomb", "category": "Movie", "genres": "Adventure | Comedy | Family",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Larry spans the globe, uniting favorite and new characters while embarking on an epic quest to save the magic before it is gone forever.",
+		"poster": "https://lh3.googleusercontent.com/RHlGXtMgurweVTiyBBG9cgrthDl1jGfCglMonE9mbw=w120-h160-no",
+		"image": "",
+		"link": "https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=5daf686088792a9c&itag=18&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1435207421&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=98E6E78C96A71879E0E52FB84B1B1956611311A2.41AD4DAB0E2CEB610826EA4ED7A65021E1339540&key=ck2"
+	},
+	{
+		"id": 3, "title": "Interstellar", "category": "Movie", "genres": "Adventure | Sci-Fi",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A group of explorers make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+		"poster": "https://lh3.googleusercontent.com/taFG7qkDZdYZ-32JvXhSNBVtxTcVxdYJmi4n0ZIKCA=w120-h160-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/8zswiuhEf63vFboB1PAqjuPz7Ir5gM7Ir-pOeG-pclI=m18"
+	},
+	{
+		"id": 4, "title": "The Interview", "category": "Movie", "genres": "Action | Comedy",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Dave Skylark and producer Aaron Rapoport run the celebrity tabloid show “Skylark Tonight.” When they land an interview with a surprise fan, North Korean dictator Kim Jong-un, they are recruited by the CIA to turn their trip to Pyongyang into an assassination mission.",
+		"poster": "https://lh3.googleusercontent.com/Sy_3f0drtnoTBY7fnY0h4fVi_dYHABrO-WlWWCupnZ8=w120-h160-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/fJQBa3kkNN0lOxA3rA6plJB3EZ1PV1Ov2pKbDPnv5Jk=m18"
+	},
+	{
+		"id": 5, "title": "The Theory of Everything", "category": "Movie", "genres": "Biography | Drama | Romance",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
+		"poster": "https://lh3.googleusercontent.com/_U-9cffkeL8F4xw1p8TdhTleU543ft0113eRZvGSdlQ=w120-h160-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/aFFTNhEfezcLvRMxO9i0BPG040T-IT0nhFdFIEX2CDP-=m22"
+	},
+	{
+		"id": 6, "title": "The Maze Runner", "category": "Movie", "genres": "Action | Mystery | Sci-Fi",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Thomas is deposited in a community of boys after his memory is erased, soon learning they’re all trapped in a maze that will require him to join forces with fellow “runners” for a shot at escape.",
+		"poster": "https://lh3.googleusercontent.com/N71ibhVTbElYnSQuvvfy7KZnUyGvN1VU3mujBJWbyzo=w120-h160-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/l3OFvt_KQ3_EWIv-oiMlu1iq8oLvqAAN1tdbLRY4MkUV=m18"
+	},
+	{
+		"id": 7, "title": "Dawn of the Planet of the Apes", "category": "Movie", "genres": "Action | Drama | Sci-Fi",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Ten years after a pandemic disease, apes who have survived it are drawn into battle with a group of human survivors.",
+		"poster": "https://lh3.googleusercontent.com/VIutErcZjYYDvyo-xbk0dYz5z1Oz2S1DqdAD61KmOLE=w120-h160-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/cMaa23pV-HPDc0_jwc4L8H8O2GGanplGD8Rsjq8Smg-_=m18"
+	},
+	{
+		"id": 8, "title": "Teenage Mutant Ninja Turtles", "category": "Movie", "genres": "Action | Adventure | Comedy",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "When a kingpin threatens New York City, a news reporter find a quad of mutants which makes an alliance to unravel Shredder’s plan as the Teenage Mutant Ninja Turtles.",
+		"poster": "https://lh3.googleusercontent.com/HSeGvyTO_t6oCNsVXkncrUZgSqvwMRLncCBjAWFLuLg=w120-h160-no",
+		"image": "",
+		"link": "https://1dfbe3i.dl.openload.io/dl/l/dXwEY0XUCY0/Teenage.Mutant.Ninja.Turtles.2014.720p.BluRay.x264.YIFY.mp4?mime=true"
+	},
+	{
+		"id": 9, "title": "Project Almanac", "category": "Movie", "genres": "Sci-Fi | Thriller",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A group of teens discover secret plans of a time machine, and construct one. However, things start to get out of control.",
+		"poster": "images/project-almanac.jpg",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/4kklWj_o4sZoN2KmSKmUF3WbYz2WZVDDAAv77WxGRs8=m18"
+	},
+	{
+		"id": 10, "title": "Furious Seven", "category": "Movie", "genres": "Action | Crime | Thriller",
+		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+		"poster": "https://lh3.googleusercontent.com/w5-844KAngbVo1Xo0U4_bxrus_h6SRqSDqla5ccLKA=w120-h160-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/QUANNGYYoBb7t1uEUsNYuoNA3Bwv0tD5vS1gXIA7Vg=m18"
+	}
+
+
+
+]
+}
