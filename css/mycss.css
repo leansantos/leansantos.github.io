@@ -275,17 +275,17 @@ Partial Tv Series list page ======================*/
 	animation: fadeInUp 1s;
 }
 .home-page .movie-item.ng-leave{
-	animation: fadeInRight 1s;	
+	animation: fadeOutRight 1s;	
 }
 .home-page .series-item.ng-enter{
 	animation: fadeInUp 3s; 
 }
 .home-page .series-item.ng-leave{
-	animation: fadeInRight 1s;
+	animation: fadeOutRight 1s;
 }
 .home-page .anime-item.ng-enter{
 	animation: fadeInUp 5s;
 }
 .home-page .anime-item.ng-leave{
-	animation: fadeInRight 1s;
+	animation: fadeOutRight 1s;
 }
