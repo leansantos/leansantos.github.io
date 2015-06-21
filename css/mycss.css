@@ -70,6 +70,7 @@ home.html*/
 	box-shadow: 0 12px 10px #777;
 	border:1px solid #D5D5D5;
 	border-radius:5px 5px 0 0;
+	animation:pulse 2s;
 }
 .video-item{
 	max-width:152px;
@@ -189,6 +190,7 @@ movie.html */
 	border:1px solid #D5D5D5;
 	box-shadow: 0 8px 10px #777;
 	background:#ffffff;
+	animation:pulse 2s;
 }
 
 @media screen and (max-width: 990px){
@@ -241,6 +243,7 @@ series.html */
 	border:1px solid #D5D5D5;
 	box-shadow: 0 8px 10px #777;
 	background:#ffffff;
+	animation:pulse 2s;
 }
 
 @media screen and (max-width: 990px){
