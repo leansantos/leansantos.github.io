@@ -260,7 +260,7 @@ Partial Tv Series list page ======================*/
 
 
 /*Animation*/
-.movies-page .movie-item.ng-enter{
+/*.movies-page .movie-item.ng-enter{
 	animation: zoomInUp 1.5s;
 }
 .movies-page .movie-item.ng-leave{
@@ -291,4 +291,66 @@ Partial Tv Series list page ======================*/
 }
 .home-page .anime-item.ng-leave{
 	animation: fadeOutRight 1s;
+}
+
+*/
+
+.home-page .video-item.ng-enter{
+	transition: 0.75s;
+	opacity: 0;
+}
+.home-page .video-item.ng-enter-stagger{
+	transition-delay:0.3s;
+}
+.home-page .video-item.ng-enter-active{
+	opacity: 1;
+}
+.home-page .video-item.ng-leave-stagger{
+	transition-delay:0.3s;
+}
+.home-page .video-item.ng-leave{
+	transition:0.75s;
+}
+.home-page .video-item.ng-leave-active{
+	opacity: 0;
+}
+/**/
+.movies-page .movie-item.ng-enter{
+	transition: 0.75s;
+	opacity: 0;
+}
+.movies-page .movie-item.ng-enter-stagger{
+	transition-delay:0.3s;
+}
+.movies-page .movie-item.ng-enter-active{
+	opacity: 1;
+}
+.movies-page .movie-item.ng-leave-stagger{
+	transition-delay:0.3s;
+}
+.movies-page .movie-item.ng-leave{
+	transition:0.75s;
+}
+.movies-page .movie-item.ng-leave-active{
+	opacity: 0;
+}
+/**/
+.series-page .series-item.ng-enter{
+	transition: 0.75s;
+	opacity: 0;
+}
+.series-page .series-item.ng-enter-stagger{
+	transition-delay:0.3s;
+}
+.series-page .series-item.ng-enter-active{
+	opacity: 1;
+}
+.series-page .series-item.ng-leave-stagger{
+	transition-delay:0.3s;
+}
+.series-page .series-item.ng-leave{
+	transition:0.75s;
+}
+.series-page .series-item.ng-leave-active{
+	opacity: 0;
 }

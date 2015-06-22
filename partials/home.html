@@ -1,14 +1,12 @@
 <div class="home-page">
-	<h2>Newest Videos</h2>
-
 
 <div class="col-md-10">
 	
 
 <!-- MOVIES Section ========================================================= -->
 <div class="movie-section">
-	<h3>Movies</h3>
-	<div class="movie-list">
+	<h2>Movies</h2>
+	<div class="movie-list"  style="border-top:1px dotted grey;padding-top:15px;">
 
 		<div ng-repeat="movie in movies | filter:search | orderBy:'-id' | limitTo:10 " class="movie-item video-item">
 			<div class="title">
@@ -21,12 +19,11 @@
 	</div><!-- end div movie-list class -->
 </div>
 <!-- END MOVIES Section ===================================================================== -->
-<hr>
 
 <!-- SERIES Section ========================================================================= -->
 <div class="series-section">
-	<h3>Tv Series</h3>
-	<div class="series-list">
+	<h2>Tv Series</h2>
+	<div class="series-list"  style="border-top:1px dotted grey;padding-top:15px;">
 
 		<div ng-repeat="series in tvseries | filter:search | orderBy:'-id' | limitTo:10 " class="series-item video-item">
 			<div class="title">
