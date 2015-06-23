@@ -1,4 +1,4 @@
-var app = angular.module('mymovieApp', ['ngRoute', 'ngAnimate'])
+var app = angular.module('mymovieApp', ['ngRoute', 'ngAnimate', 'angularUtils.directives.dirPagination'])
 
 app.config(['$routeProvider', function($routeProvider){
 

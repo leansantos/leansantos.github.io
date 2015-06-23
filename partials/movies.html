@@ -4,17 +4,15 @@
 <div class="col-md-9">
 
 	<div class="movie-list">
-		<div>
-			<ul style="overflow:hidden;">
-				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">1</li></a>
-				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">2</li></a>
-				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">3</li></a>
-				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">4</li></a>
-				<a href=""><li style="float:left;padding:5px;background-color:#eee;margin-right:2px;">5</li></a>
-			</ul>
-		</div>
+	
+		<dir-pagination-controls
+		    [max-size="5"]
+		    [direction-links="true"]
+		    [boundary-links="true"]>
+	    </dir-pagination-controls>
+		
 
-		<div class="movie-item" ng-repeat="movie in movies | filter:search | orderBy:'-id'">
+		<div class="movie-item" dir-paginate="movie in movies |  filter:search | orderBy:'-id' | itemsPerPage: 10 ">
 			<div class="poster">
 				<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><img ng-src="{{ movie.poster }}" alt=""></a>		
 			</div>
@@ -28,9 +26,14 @@
 				<p>{{ movie.summary }}</p>
 			</div>
 		</div><!-- end div movie-item class -->
-
-
 		
+		
+		<dir-pagination-controls
+		    [max-size="5"]
+		    [direction-links="true"]
+		    [boundary-links="true"]>
+	    </dir-pagination-controls>
+			
 	</div><!-- end div movie-list class -->
 	
 	

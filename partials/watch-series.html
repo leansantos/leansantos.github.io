@@ -7,9 +7,13 @@
 <br>
 <!-- 16:9 aspect ratio -->
 <div>
-	<div class="embed-responsive embed-responsive-16by9" >
+	<div class="embed-responsive embed-responsive-16by9" style="background-color:black;">
 
-			<video src="{{seriesLink(getparamId)}}" controls autoplay preload poster="{{tvseries[getparamId].poster}}" style="background-color:black;"></video>
+			<!-- <video src="{{seriesLink(getparamId)}}" controls autoplay preload poster="{{tvseries[getparamId].poster}}" style="background-color:black;"></video> -->
+
+			<video autoplay="" controls="" preload="auto" oncontextmenu="return false" src="{{seriesLink(getparamId)}}" poster="{{tvseries[getparamId].poster}}">
+				<source src="{{seriesLink(getparamId)}}" type="video/mp4" data-res="720p">
+			</video>
 		
 		<div ng-if="getparamId == 6" ng-include="'partials/theflash_s01-e07.html'"></div>
 	</div>

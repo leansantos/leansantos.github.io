@@ -319,15 +319,15 @@ Partial Tv Series list page ======================*/
 	transition: 0.75s;
 	opacity: 0;
 }
-.movies-page .movie-item.ng-enter-stagger{
+/*.movies-page .movie-item.ng-enter-stagger{
 	transition-delay:0.3s;
-}
+}*/
 .movies-page .movie-item.ng-enter-active{
 	opacity: 1;
 }
-.movies-page .movie-item.ng-leave-stagger{
+/*.movies-page .movie-item.ng-leave-stagger{
 	transition-delay:0.3s;
-}
+}*/
 .movies-page .movie-item.ng-leave{
 	transition:0.75s;
 }
@@ -339,15 +339,15 @@ Partial Tv Series list page ======================*/
 	transition: 0.75s;
 	opacity: 0;
 }
-.series-page .series-item.ng-enter-stagger{
+/*.series-page .series-item.ng-enter-stagger{
 	transition-delay:0.3s;
-}
+}*/
 .series-page .series-item.ng-enter-active{
 	opacity: 1;
 }
-.series-page .series-item.ng-leave-stagger{
+/*.series-page .series-item.ng-leave-stagger{
 	transition-delay:0.3s;
-}
+}*/
 .series-page .series-item.ng-leave{
 	transition:0.75s;
 }
