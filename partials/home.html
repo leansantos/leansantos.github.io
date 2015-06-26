@@ -10,10 +10,10 @@
 
 		<div ng-repeat="movie in movies | filter:search | orderBy:'-id' | limitTo:10 " class="movie-item video-item">
 			<div class="title">
-				<b><a href="#/movies/{{ movie.id }}/watch-{{ movie.title }}" title="{{ movie.title }} ({{ movie.released }})">{{ movie.title }}</a></b>
+				<b><a href="#/movies/{{movie.id}}/watch-{{ movie.title }}" title="{{ movie.title }} ({{ movie.released }})">{{ movie.title }}</a></b>
 			</div>
 			<div class="year"><i>({{ movie.released }})</i></div>
-			<a href="#/movies/{{ movie.id }}/watch-{{ movie.title }}"><img ng-src="{{ movie.poster }}" title="{{ movie.title }} ({{ movie.released }})"></a>
+			<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><img ng-src="{{ movie.poster }}" title="{{ movie.title }} ({{ movie.released }})"></a>
 		</div>
 		
 	</div><!-- end div movie-list class -->

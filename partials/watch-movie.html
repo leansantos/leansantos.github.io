@@ -1,12 +1,15 @@
-<div class="movies-page">
+<div class="watch-movies-page">
 	
 
 <div class="col-md-9">
-<h3>{{movies[getparamId].title}}</h3>
+<div class="title">
+	<h3>{{movies[getparamId].title}} - ({{movies[getparamId].released}})</h3>
+</div>
+
 
 <!-- 16:9 aspect ratio -->
 <div>
-	<div class="embed-responsive embed-responsive-16by9" style="background-color:black;">
+	<div class="embed-responsive embed-responsive-16by9" style="background-color:black;box-shadow: 0 8px 10px #777;">
   		<!-- <video src="{{movieLink(getparamId)}}" controls autoplay preload poster="{{movies[getparamId].poster}}">
   			<source src="{{movieSource(getparamId)}}" type="video/mp4">
   		</video> -->

@@ -1,13 +1,12 @@
-<div class="watch-page">
+<div class="watch-series-page">
 
 <div class="col-md-9">
-<h3>
-{{tvseries[getparamId].title}} - {{tvseries[getparamId].episodeTitle}}(S{{tvseries[getparamId].season}}-E{{tvseries[getparamId].episode}})
-</h3>
-<br>
+<div class="title">
+<h3>{{tvseries[getparamId].title}} - {{tvseries[getparamId].episodeTitle}}(S{{tvseries[getparamId].season}}-E{{tvseries[getparamId].episode}})</h3>
+</div>
 <!-- 16:9 aspect ratio -->
 <div>
-	<div class="embed-responsive embed-responsive-16by9" style="background-color:black;">
+	<div class="embed-responsive embed-responsive-16by9" style="background-color:black;box-shadow: 0 8px 10px #777;">
 
 			<!-- <video src="{{seriesLink(getparamId)}}" controls autoplay preload poster="{{tvseries[getparamId].poster}}" style="background-color:black;"></video> -->
 
@@ -15,7 +14,7 @@
 				<source src="{{seriesLink(getparamId)}}" type="video/mp4" data-res="720p">
 			</video>
 		
-		<div ng-if="getparamId == 6" ng-include="'partials/theflash_s01-e07.html'"></div>
+		<!-- <div ng-if="getparamId == 6" ng-include="'partials/theflash_s01-e07.html'"></div> -->
 	</div>
 </div>
 

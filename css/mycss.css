@@ -203,6 +203,20 @@ movie.html */
 
 Partial Movie list page ========================== */
 
+/*Partials Watch Movies page
+
+watch-movie.html*/
+.watch-movies-page .title{
+	border-bottom: 1px dotted #333;
+	margin-bottom:10px;
+	padding-top:20px;
+}
+
+/*END
+
+Partisl Watch Movies page ========================*/
+
+
 /*Partial Tv Series list page =====================
 
 series.html */
@@ -252,6 +266,18 @@ series.html */
 	.series-page .summary{height:132px;max-height:132px;font-size:12px;}
 }
 
+/*Partials Watch Series page
+
+watch-series.html*/
+.watch-series-page .title{
+	border-bottom: 1px dotted #333;
+	margin-bottom:10px;
+	padding-top:20px;
+}
+
+/*END
+
+Partials Watch Series page ========================*/
 
 
 /*END
@@ -354,3 +380,4 @@ Partial Tv Series list page ======================*/
 .series-page .series-item.ng-leave-active{
 	opacity: 0;
 }
+
